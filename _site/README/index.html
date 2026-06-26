@@ -1,0 +1,49 @@
+<h1>fullkitmarketing.com</h1>
+<p>Static marketing site for <strong>Full Kit Marketing</strong> — a lean marketing consultancy for growing
+service businesses. Built as a fast, dependency-light static site (Eleventy passthrough), modeled
+on the structure of benbetson.us.</p>
+<h2>Stack</h2>
+<ul>
+<li><strong>Eleventy</strong> (v3) — but every page is plain static HTML copied verbatim via passthrough.
+There is no templating to learn; edit the <code>.html</code> files directly.</li>
+<li><strong>Self-hosted fonts</strong> — EB Garamond (display) + Nunito Sans (body, an Avenir substitute) in
+<code>fonts/</code>, so no third-party font requests.</li>
+<li><strong>No build-time JS framework.</strong> <code>script.js</code> is ~100 lines of progressive enhancement
+(mobile nav, scroll-reveal, contact form).</li>
+</ul>
+<h2>Structure</h2>
+<pre><code>index.html              Home (hero, positioning, what we are, problem, how we work,
+                        services, engagement models, vision, who it's for, approach, FAQ, contact)
+about/index.html        Rachel Beck — founder bio
+services/index.html     Six core service areas + engagement models + entry points
+privacy/index.html      Privacy &amp; cookies policy
+404.html                Not-found page
+styles.css              All styles (brand palette + components)
+script.js               Progressive enhancement
+fonts/                  Self-hosted woff2 + fonts.css
+favicon.svg / .png, apple-touch-icon.png, og-image.png
+robots.txt, sitemap.xml, site.webmanifest, llms.txt, _headers
+BRAND.md                Brand guide (voice, color, type, logo)
+</code></pre>
+<h2>Develop</h2>
+<pre><code class="language-bash">npm install
+npm run serve     # local dev server with live reload
+npm run build     # outputs _site/
+</code></pre>
+<p>You can also just open <code>index.html</code> in a browser — the site works without a build step
+(use a static server for clean <code>/about/</code> style routes).</p>
+<h2>Before going live (TODO)</h2>
+<ol>
+<li><strong>Contact form</strong> — create a free <a href="https://web3forms.com">Web3Forms</a> access key for
+<code>rachel@fullkitmarketing.com</code> and replace <code>YOUR_WEB3FORMS_ACCESS_KEY</code> in <code>index.html</code>.
+Until then, the form falls back to prompting an email to Rachel.</li>
+<li><strong>Spam protection (optional)</strong> — set a real Cloudflare Turnstile site key in <code>script.js</code>
+(<code>YOUR_TURNSTILE_SITEKEY</code>).</li>
+<li><strong>Confirm the legal entity name</strong> — pages use &quot;Full Kit Marketing LLC&quot;; adjust if the
+registered name differs.</li>
+<li><strong>Founder photo</strong> — swap the <code>RB</code> monogram placeholder in <code>about/index.html</code> for a real
+headshot (<code>&lt;img class=&quot;headshot&quot; …&gt;</code>), if desired.</li>
+</ol>
+<h2>Content source</h2>
+<p>Copy and positioning are drawn from the founder's source documents in <code>source/</code>
+(business plan, vision, brand kit). See <code>BRAND.md</code> for the brand system.</p>
