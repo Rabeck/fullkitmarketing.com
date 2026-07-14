@@ -40,4 +40,6 @@ module.exports = function (eleventyConfig) {
 
     const hashList = Array.from(hashes).sort().join(" ");
     const finalHeaders = template.replace("__INLINE_SCRIPT_HASHES__", hashList);
-    fs.writeFileSync(path.join(directories
+    fs.writeFileSync(path.join(directories.output, "_headers"), finalHeaders);
+  });
+};
