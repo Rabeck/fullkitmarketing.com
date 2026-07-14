@@ -3,24 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy &amp; Cookies — Full Kit Marketing</title>
-  <meta name="description" content="How Full Kit Marketing handles your information: the contact form, hosting, and cookies." />
-  <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://fullkitmarketing.com/privacy/" />
+  <title>Services — Full Kit Marketing</title>
+  <meta name="description" content="Six core service areas — strategy & planning, messaging & positioning, content, marketing operations & automation, reporting & analytics, and brand activations — delivered through monthly retainers or project engagements." />
+  <meta name="author" content="Full Kit Marketing LLC" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" href="https://fullkitmarketing.com/services/" />
   <meta name="theme-color" content="#3b1c32" />
-
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-N5BYZFXRN5"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-N5BYZFXRN5');
-  </script>
-  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <script src="/analytics.js"></script>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
   <link rel="icon" href="/favicon.png" sizes="any" />
   <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
   <link rel="manifest" href="/site.webmanifest" />
+  <noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
+
+  <meta property="og:title" content="Services — Full Kit Marketing" />
+  <meta property="og:description" content="Six core service areas, drawn on as you need them — delivered through monthly retainers or project engagements." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://fullkitmarketing.com/services/" />
+  <meta property="og:site_name" content="Full Kit Marketing" />
+  <meta property="og:image" content="https://fullkitmarketing.com/og-image.png" />
+
   <link rel="stylesheet" href="/fonts/fonts.css" />
   <link rel="stylesheet" href="/styles.css" />
 </head>
@@ -43,8 +47,15 @@
         </button>
         <ul class="nav-menu" id="nav-menu">
           <li><a href="/#how">How we work</a></li>
-          <li><a href="/services/">Services</a></li>
+          <li class="nav-has-sub">
+            <a href="/services/" aria-haspopup="true">Services <span class="nav-caret" aria-hidden="true">▾</span></a>
+            <ul class="nav-submenu">
+              <li><a href="/services/#areas">Core service areas</a></li>
+              <li><a href="/services/#models">Engagement models</a></li>
+            </ul>
+          </li>
           <li><a href="/about/">About</a></li>
+          <li><a href="/#values">Approach</a></li>
           <li><a href="/#faq">FAQ</a></li>
           <li><a href="/#contact" class="nav-cta">Get in touch</a></li>
         </ul>
@@ -53,65 +64,125 @@
   </header>
 
   <main id="main">
+    <!-- Intro -->
     <section class="section">
-      <div class="container legal">
-        <p class="crumb"><a href="/">Home</a> &rsaquo; Privacy &amp; Cookies</p>
-        <h1>Privacy &amp; Cookies</h1>
-        <p class="legal-updated">Last updated: June 22, 2026</p>
-
-        <p>
-          Full Kit Marketing LLC (“Full Kit,” “we,” “us”) keeps this simple. We collect only what we need to
-          reply to you, and we don't sell or share your information. This page explains what happens when you
-          use <strong>fullkitmarketing.com</strong>.
+      <div class="container">
+        <p class="crumb reveal"><a href="/">Home</a> &rsaquo; Services</p>
+        <p class="eyebrow reveal">Services</p>
+        <h1 class="reveal" style="max-width:16ch">Broad-spectrum. Never one-size-fits-all.</h1>
+        <p class="page-lead reveal" style="margin-top:1.2rem">
+          Every engagement is built around what your specific business actually needs. Full Kit draws on six core
+          areas of expertise — what's included in any given engagement is determined by your goals, not a preset package.
         </p>
-
-        <h2>The contact form</h2>
-        <p>
-          When you send a message through the contact form, you provide your name, email, and whatever you write
-          in the message. We use those details only to read and reply to your enquiry. Form submissions are
-          processed by <a href="https://web3forms.com/privacy" rel="noopener">Web3Forms</a>, which delivers the
-          message to us by email. We may also keep your message in our email so we can continue the conversation.
+        <p class="page-note reveal">
+          Services are delivered through two models: ongoing monthly retainers for strategic partnership, and
+          project-based engagements for discrete deliverables.
         </p>
+      </div>
+    </section>
 
-        <h2>Spam protection</h2>
-        <p>
-          To keep out automated spam, the form uses a hidden honeypot field and may use
-          <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">Cloudflare Turnstile</a>, a
-          privacy-respecting alternative to CAPTCHA. Turnstile does not track you across websites.
+    <!-- Core service areas -->
+    <section class="section section-alt" id="areas">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal">Core service areas</p>
+          <h2 class="reveal">Six areas of expertise</h2>
+        </div>
+        <div class="detail-grid">
+          <article class="detail-card reveal">
+            <span class="card-num">01</span>
+            <h3>Marketing strategy &amp; planning</h3>
+            <p>A full audit of where you stand — brand, positioning, audience, channels, and competitive landscape — followed by a strategic roadmap tied to your business objectives. This is the foundation of every Full Kit engagement.</p>
+          </article>
+          <article class="detail-card reveal">
+            <span class="card-num">02</span>
+            <h3>Messaging &amp; positioning</h3>
+            <p>Defining your core value proposition, differentiating from competitors, and building a messaging framework that works across channels. Especially valuable for businesses launching, repositioning, or entering a new growth phase.</p>
+          </article>
+          <article class="detail-card reveal">
+            <span class="card-num">03</span>
+            <h3>Content strategy &amp; creation</h3>
+            <p>Content production and distribution strategies designed to strengthen your connection with your audience, attract customers, and build brand loyalty.</p>
+          </article>
+          <article class="detail-card reveal">
+            <span class="card-num">04</span>
+            <h3>Marketing operations &amp; automation</h3>
+            <p>Building and optimizing the marketing tech stack, setting up automation workflows, establishing reporting infrastructure, and creating the operational backbone that lets marketing scale — including implementing the AI tools relevant to your marketing: content generation, workflow automation, and customer insight. A core Full Kit differentiator, and among the highest-ROI services for small businesses.</p>
+          </article>
+          <article class="detail-card reveal">
+            <span class="card-num">05</span>
+            <h3>Reporting &amp; analytics</h3>
+            <p>Setting up reporting frameworks that give you clear visibility into what's working — the metrics that actually matter, in dashboards leadership can use.</p>
+          </article>
+          <article class="detail-card reveal">
+            <span class="card-num">06</span>
+            <h3>Custom brand activations</h3>
+            <p>“Wow moments” that bring your business and brand to life.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Engagement models -->
+    <section class="section" id="models">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal">Engagement models</p>
+          <h2 class="reveal">Two ways to work together</h2>
+          <p class="section-intro reveal">Regardless of model, what's included is determined by your actual needs — not a package.</p>
+        </div>
+        <div class="models">
+          <div class="model feature reveal">
+            <p class="model-meta">Ongoing partnership</p>
+            <h3>Monthly retainer</h3>
+            <p class="model-price">$3,000&ndash;$4,000<span> / month</span></p>
+            <p class="model-desc">Ongoing strategic partnership: client and competitor research, strategy creation, planning, and guidance. For clients who need consistent marketing leadership and direction.</p>
+            <div class="card-foot" style="border-color:rgba(255,255,255,.18)"><strong style="color:#fff">Best for</strong> growing businesses that need a senior marketing partner month after month.</div>
+          </div>
+          <div class="model reveal">
+            <p class="model-meta">Defined scope</p>
+            <h3>Project engagement</h3>
+            <p class="model-price">$100<span> / hour</span></p>
+            <p class="model-desc">Defined-scope deliverables billed hourly — content calendar creation, tools training, drip email campaign setup, and similar discrete needs.</p>
+            <div class="card-foot"><strong>Best for</strong> a specific, bounded project where you know what you need delivered.</div>
+          </div>
+        </div>
+        <p class="page-note reveal">
+          Where specialists are engaged for overflow or niche needs, that work is scoped into estimates upfront.
         </p>
+      </div>
+    </section>
 
-        <h2>Hosting &amp; logs</h2>
-        <p>
-          The site is hosted on Cloudflare's network. Like any web host, Cloudflare processes basic technical
-          information (such as your IP address and browser type) to serve the site securely and to protect
-          against abuse. If privacy-friendly, cookieless analytics are enabled, they count page views without
-          identifying you.
-        </p>
+    <!-- Who it fits -->
+    <section class="section section-sage">
+      <div class="container">
+        <div class="section-head">
+          <p class="eyebrow reveal">Where clients start</p>
+          <h2 class="reveal">Different stages, different entry points</h2>
+        </div>
+        <div class="tablewrap reveal">
+          <table class="matrix">
+            <thead>
+              <tr><th>If you're a…</th><th>Your primary need</th><th>Full Kit entry point</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>New or recently launched business</td><td>Positioning, brand voice, foundational systems</td><td>Strategy + messaging engagement</td></tr>
+              <tr><td>Growing business with no marketer</td><td>Strategic direction and full execution ownership</td><td>Full-scope retainer</td></tr>
+              <tr><td>Business with one junior marketer</td><td>Senior leadership and specialized execution support</td><td>Strategic retainer + project work</td></tr>
+              <tr><td>Business preparing for a growth push</td><td>Campaign planning, content, and channel strategy</td><td>Project or retainer, depending on scope</td></tr>
+              <tr><td>Business undergoing a rebrand</td><td>Messaging, positioning, and content refresh</td><td>Project engagement</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
 
-        <h2>Cookies</h2>
-        <p>
-          This site does not set advertising or tracking cookies. Cloudflare may set strictly necessary cookies
-          for security and to deliver the site. Fonts are self-hosted, so loading the site does not send requests
-          to third-party font providers.
-        </p>
-
-        <h2>Your choices</h2>
-        <ul>
-          <li>You can email us anytime instead of using the form: <a href="mailto:rachel@fullkitmarketing.com">rachel@fullkitmarketing.com</a>.</li>
-          <li>You can ask us to delete the message and contact details you sent us.</li>
-          <li>You can use your browser settings to block or clear cookies.</li>
-        </ul>
-
-        <h2>Contact</h2>
-        <p>
-          Questions about this policy or your information? Email
-          <a href="mailto:rachel@fullkitmarketing.com">rachel@fullkitmarketing.com</a>.
-        </p>
-
-        <p class="legal-note">
-          Full Kit Marketing LLC is organized in Oregon, USA. This page is provided for transparency and is not
-          legal advice. We may update it from time to time; the “last updated” date above reflects the latest change.
-        </p>
+    <!-- CTA -->
+    <section class="section cta-band">
+      <div class="container">
+        <h2 class="reveal">Not sure which fits?</h2>
+        <p class="reveal">That's the point of the first conversation. Tell us where you are, and we'll tell you what you actually need.</p>
+        <p class="reveal"><a class="btn btn-primary btn-lg" href="/#contact">Start a conversation</a></p>
       </div>
     </section>
   </main>
@@ -126,6 +197,7 @@
         <a href="/#how">How we work</a>
         <a href="/services/">Services</a>
         <a href="/about/">About</a>
+        <a href="/#values">Approach</a>
         <a href="/#faq">FAQ</a>
         <a href="/privacy/">Privacy</a>
         <a href="mailto:rachel@fullkitmarketing.com">Email</a>
