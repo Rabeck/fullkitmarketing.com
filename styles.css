@@ -330,7 +330,11 @@ table.matrix .em { color: var(--rust-dk); font-weight: 700; }
   display: grid; place-items: center;
   font-family: var(--font-serif); font-weight: 700; font-size: 3.4rem; color: #f3e4dd; letter-spacing: 0.02em;
 }
-
+.headshot {
+  width: 100%; max-width: 320px; aspect-ratio: 4 / 5; object-fit: cover;
+  border-radius: var(--radius); margin: 0 0 1.5rem;
+  box-shadow: var(--shadow); display: block;
+}
 .timeline { position: relative; padding-left: 1.75rem; }
 .timeline::before { content: ""; position: absolute; left: 7px; top: 6px; bottom: 6px; width: 2px; background: var(--line); }
 .tl-item { position: relative; margin-bottom: 2.25rem; }
