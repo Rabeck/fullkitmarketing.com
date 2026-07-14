@@ -1,0 +1,21 @@
+# Cloudflare Pages — response headers for all routes
+# This is the SOURCE file. The actual _headers file served to visitors is
+# generated automatically at build time (see .eleventy.js) — its
+# Content-Security-Policy script-src gets the current, correct hashes of
+# every inline <script> block on the site, computed fresh on every deploy.
+# Edit this file to change header rules; don't edit the generated _headers.
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=(), interest-cohort=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+  Content-Security-Policy: default-src 'self'; base-uri 'self'; object-src 'none'; frame-ancestors 'none'; frame-src https://challenges.cloudflare.com; form-action 'self' https://api.web3forms.com; img-src 'self' data: https://www.google-analytics.com; style-src 'self' 'unsafe-inline'; font-src 'self'; script-src 'self' __INLINE_SCRIPT_HASHES__ https://static.cloudflareinsights.com https://challenges.cloudflare.com https://www.googletagmanager.com; connect-src 'self' https://cloudflareinsights.com https://api.web3forms.com https://challenges.cloudflare.com https://www.google-analytics.com https://region1.google-analytics.com; upgrade-insecure-requests
+
+# Long-lived caching for static assets.
+/styles.css
+  Cache-Control: public, max-age=31536000, immutable
+/script.js
+  Cache-Control: public, max-age=31536000, immutable
+/fonts/*
+  Cache-Control: public, max-age=31536000, immutable
