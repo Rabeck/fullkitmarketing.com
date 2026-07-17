@@ -289,6 +289,8 @@ p  { margin: 0 0 1rem; }
   padding: clamp(1.75rem, 3vw, 2.4rem); box-shadow: var(--shadow); display: flex; flex-direction: column;
 }
 .model.feature { background: var(--plum); color: var(--white); border-color: var(--plum); }
+.model.feature .card-foot { color: var(--white); border-color: rgba(255,255,255,.18); }
+.model.feature .card-foot strong { color: var(--white); }
 .model.feature h3, .model.feature .model-price { color: var(--white); }
 .model.feature .model-desc { color: #e2d3db; }
 .model.feature .model-meta { color: var(--steel); }
