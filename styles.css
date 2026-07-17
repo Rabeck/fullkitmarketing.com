@@ -278,7 +278,7 @@ p  { margin: 0 0 1rem; }
 }
 .card-foot {
   margin: auto 0 0; padding-top: 1.1rem; border-top: 1px solid var(--line);
-  font-size: 0.96rem; color: var(--white);
+  font-size: 0.96rem; color: var(--slate);
 }
 .card-foot strong { color: var(--plum); }
 
