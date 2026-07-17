@@ -253,13 +253,14 @@ p  { margin: 0 0 1rem; }
 .cards-2 { grid-template-columns: repeat(2, 1fr); }
 .card {
   background: var(--white); border: 1px solid var(--line); border-radius: var(--radius);
-  padding: clamp(1.6rem, 2.6vw, 2.1rem); box-shadow: var(--shadow); display: flex; flex-direction: column;
+  padding: clamp(1.6rem, 2.6vw, 2.1rem); box-shadow: var(--shadow); display: flex; flex-direction: column; 
 }
 .card-icon {
   display: inline-block;
   width: 26px;
   height: 26px;
   color: var(--steel-dk);
+align-self: center;
   margin-bottom: 0.5rem;
 }
 .card-icon svg {
