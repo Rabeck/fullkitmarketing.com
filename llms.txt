@@ -1,28 +1,26 @@
 # Full Kit Marketing
 
-> Full Kit Marketing is a lean, high-trust marketing consultancy for growing service-based businesses.
-> It specializes in 0-1 marketing: getting businesses with little or no marketing infrastructure fully
+> Full Kit Marketing is a modern marketing consultancy for growing service-based businesses.
+> It specializes in getting businesses with little or no marketing infrastructure fully
 > set up, strategically aligned, and operating with the systems and roadmap they need to scale.
-> Tagline: "Marketing that moves small business forward."
+> Tagline: "Marketing that levels up your business."
 
 ## What it is
-- A consultancy, not an agency. A catalyst, not a menu of services.
-- Founded by Rachel Beck (Founder & CEO), an Oregon LLC, 2026.
-- Senior marketing strategy paired with hands-on execution, right-sized for small business.
-- Industry-agnostic within the service sector; e-commerce is out of scope.
+- Marketing strategy and services provider
+- Senior marketing strategy paired with hands-on execution, right-sized for growing businesses
+- Industry-agnostic within the service sector
 
 ## Who it serves
 - Growing service businesses: hospitality, trades, professional services, SaaS, consulting, and more.
-- 2–100 employees, 0–1 in-house marketers, real revenue, ready to grow.
-- Decision maker: business owner, founder, or CEO. Budget signal: willing to invest $2,000+/month.
+- 2–100 employees, 0–1 in-house marketers, ready to grow.
 
 ## Core service areas (drawn on as needed, never a preset package)
-1. Marketing strategy & planning — audit + strategic roadmap tied to business objectives.
+1. Marketing strategy & planning — brand audit + strategic marketing roadmap tied to business goals.
 2. Messaging & positioning — value proposition, differentiation, cross-channel messaging framework.
 3. Content strategy & creation — production and distribution to grow audience and loyalty.
-4. Marketing operations & automation — tech stack, automation, reporting backbone, and AI tools (a core differentiator).
+4. Marketing operations & automation — web, SEO, tech stack, automation, and AI tools.
 5. Reporting & analytics — frameworks and dashboards around the metrics that matter.
-6. Custom brand activations — "wow moments" that bring the brand to life.
+6. Custom brand activations — "wow moments" and events that bring the brand to life.
 
 ## Engagement models
 - Monthly retainer: $3,000–$4,000/month — ongoing strategic partnership.
@@ -32,4 +30,4 @@
 ## Contact
 - Email: rachel@fullkitmarketing.com
 - Website: https://fullkitmarketing.com/
-- Pages: / (home), /services/, /about/, /privacy/
+- Pages: / (home), /services/, /about/, /resources/, /privacy/
