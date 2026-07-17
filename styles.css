@@ -171,7 +171,7 @@ p  { margin: 0 0 1rem; }
   font-weight: 500; line-height: 1.18; letter-spacing: 0;
   color: var(--plum-soft);
 }
-.hero-lead { font-size: clamp(1.1rem, 2.1vw, 1.4rem); color: var(--slate); max-width: 46ch; }
+.hero-lead { font-size: clamp(1.1rem, 2.1vw, 1.4rem); color: var(--slate); max-width: 58ch; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: 0.9rem; margin: 1.8rem 0 1.1rem; }
 .hero-note {
   font-size: 0.98rem; color: var(--plum-soft); font-weight: 600;
