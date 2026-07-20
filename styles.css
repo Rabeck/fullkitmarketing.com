@@ -185,15 +185,15 @@ p  { margin: 0 0 1rem; }
 /* ============================================================
    Positioning strip (differentiators)
    ============================================================ */
-.strip { background: var(--plum); color: var(--white); }
+.strip { background: var(--steel-dk); color: var(--white); }
 .strip-inner {
   display: grid; grid-template-columns: repeat(4, 1fr);
   gap: clamp(1rem, 3vw, 2rem);
   padding: clamp(2rem, 4vw, 2.75rem) var(--gutter);
 }
 .strip-item { display: flex; flex-direction: column; gap: 0.4rem; }
-.strip-num { font-family: var(--font-serif); font-size: clamp(1.6rem, 3.2vw, 2.3rem); font-weight: 700; color: var(--steel); line-height: 1.05; }
-.strip-label { font-size: 0.92rem; color: #d8c8d2; max-width: 26ch; }
+.strip-num { font-family: var(--font-serif); font-size: clamp(1.6rem, 3.2vw, 2.3rem); font-weight: 700; color: var(--white); line-height: 1.05; }
+.strip-label { font-size: 0.92rem; color: var(--bg-alt); max-width: 26ch; }
 
 /* ============================================================
    Sections
