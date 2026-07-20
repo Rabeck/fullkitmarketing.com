@@ -120,13 +120,13 @@ p  { margin: 0 0 1rem; }
    ============================================================ */
 .site-header {
   position: sticky; top: 0; z-index: 100;
-  background: rgba(248,244,240,.88);
+  background: rgba(59,28,50,.94);
   backdrop-filter: saturate(180%) blur(12px);
-  border-bottom: 1px solid var(--line);
+  border-bottom: 1px solid rgba(248,244,240,.14);
 }
 .header-inner { display: flex; align-items: center; justify-content: space-between; height: 76px; }
 
-.brand { display: inline-flex; align-items: center; gap: 0.7rem; color: var(--plum); }
+.brand { display: inline-flex; align-items: center; gap: 0.7rem; color: var(--bg-alt); }
 .brand:hover { text-decoration: none; }
 .brand-mark {
   display: inline-grid; place-items: center;
@@ -135,21 +135,21 @@ p  { margin: 0 0 1rem; }
   border-radius: 10px;
 }
 .brand-text { display: flex; flex-direction: column; line-height: 1.05; }
-.brand-name { font-family: var(--font-serif); font-weight: 700; font-size: 1.28rem; color: var(--plum); }
-.brand-sub { font-size: 0.7rem; color: var(--slate-2); letter-spacing: 0.06em; text-transform: uppercase; margin-top: 3px; }
+.brand-name { font-family: var(--font-serif); font-weight: 700; font-size: 1.28rem; color: var(--white); }
+.brand-sub { font-size: 0.7rem; color: rgba(248,244,240,.85); letter-spacing: 0.06em; text-transform: uppercase; margin-top: 3px; }
 
 .nav { display: flex; align-items: center; }
 .nav-menu { display: flex; align-items: center; gap: 0.3rem; list-style: none; margin: 0; padding: 0; }
 .nav-menu a {
   display: inline-block; padding: 0.5rem 0.85rem; border-radius: 8px;
-  color: var(--plum-soft); font-weight: 600; font-size: 0.95rem;
+  color: var(--white); font-weight: 600; font-size: 0.95rem;
 }
-.nav-menu a:hover { color: var(--plum); background: var(--bg); text-decoration: none; }
-.nav-menu .nav-cta { background: var(--rust); color: var(--white); margin-left: 0.4rem; }
+.nav-menu a:hover { color: var(--white); background: rgba(255,255,255,.1); text-decoration: none; }
+.nav-menu .nav-cta { background: var(--rust); color: var(--white); font-weight: 700; margin-left: 0.4rem; }
 .nav-menu .nav-cta:hover { background: var(--rust-dk); color: var(--white); }
 
 .nav-toggle { display: none; flex-direction: column; gap: 5px; background: none; border: 0; cursor: pointer; padding: 8px; }
-.nav-toggle span { width: 24px; height: 2px; background: var(--plum); border-radius: 2px; transition: transform .25s ease, opacity .2s ease; }
+.nav-toggle span { width: 24px; height: 2px; background: var(--bg-alt); border-radius: 2px; transition: transform .25s ease, opacity .2s ease; }
 
 /* ============================================================
    Hero
@@ -500,7 +500,7 @@ table.matrix .em { color: var(--rust-dk); font-weight: 700; }
    Nav dropdown (Services submenu)
    ============================================================ */
 .nav-has-sub { position: relative; }
-.nav-caret { font-size: 0.7em; margin-left: 0.25em; vertical-align: middle; color: var(--slate-2); }
+.nav-caret { font-size: 0.7em; margin-left: 0.25em; vertical-align: middle; color: currentColor; }
 .nav-submenu {
   list-style: none; margin: 0; padding: 0.4rem;
   position: absolute; top: 100%; left: 0; min-width: 244px;
@@ -556,14 +556,14 @@ table.matrix .em { color: var(--rust-dk); font-weight: 700; }
     box-shadow: none; border: 0; border-radius: 0; min-width: 0;
     padding: 0 0 0.2rem 0.6rem; margin: 0; transition: none;
   }
-  .nav-submenu a { padding: 0.65rem 0.9rem; color: var(--slate); }
+  .nav-submenu a { padding: 0.65rem 0.9rem; color: rgba(248,244,240,.75); }
   .nav-caret { display: none; }
 
   .nav-toggle { display: flex; }
   .nav-menu {
     position: absolute; top: 76px; left: 0; right: 0;
     flex-direction: column; align-items: stretch; gap: 0.25rem;
-    background: var(--bg-alt); border-bottom: 1px solid var(--line);
+    background: var(--plum); border-bottom: 1px solid rgba(248,244,240,.14);
     padding: 0.75rem var(--gutter) 1.1rem; box-shadow: var(--shadow);
     transform-origin: top; transform: scaleY(0); opacity: 0; pointer-events: none;
     transition: transform .2s ease, opacity .2s ease;
