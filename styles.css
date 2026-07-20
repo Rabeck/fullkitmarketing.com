@@ -414,7 +414,7 @@ table.matrix .em { color: var(--rust-dk); font-weight: 700; }
 /* ============================================================
    Contact
    ============================================================ */
-.section-contact { text-align: center; background: var(--rust-soft); border-block: 1px solid var(--line); }
+.section-contact { text-align: center; background: #f8f4f0; border-block: 1px solid var(--line); }
 .contact-inner { max-width: 700px; margin-inline: auto; }
 .contact-inner .eyebrow { display: block; }
 .contact-lead { font-size: 1.12rem; color: var(--plum-soft); margin-bottom: 2rem; }
