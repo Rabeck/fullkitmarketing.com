@@ -499,7 +499,6 @@ table.matrix .em { color: var(--rust-dk); font-weight: 700; }
    Nav dropdown (Services submenu)
    ============================================================ */
 .nav-has-sub { position: relative; }
-.nav-caret { font-size: 0.7em; margin-left: 0.25em; vertical-align: middle; color: currentColor; }
 .nav-submenu {
   list-style: none; margin: 0; padding: 0.4rem;
   position: absolute; top: 100%; left: 0; min-width: 244px;
@@ -556,7 +555,6 @@ table.matrix .em { color: var(--rust-dk); font-weight: 700; }
     padding: 0 0 0.2rem 0.6rem; margin: 0; transition: none;
   }
   .nav-submenu a { padding: 0.65rem 0.9rem; color: rgba(248,244,240,.75); }
-  .nav-caret { display: none; }
 
   .nav-toggle { display: flex; }
   .nav-menu {
