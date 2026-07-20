@@ -524,7 +524,7 @@ table.matrix .em { color: var(--rust-dk); font-weight: 700; }
   padding: 0.7rem 1.1rem; border-radius: 0 0 var(--radius) 0;
   z-index: 200; font-weight: 700;
 }
-.skip-link:focus { top: 0; }
+.skip-link:focus-visible { top: 0; }
 
 /* legal pages */
 .legal { max-width: 760px; }
