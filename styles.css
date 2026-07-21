@@ -194,7 +194,6 @@ p  { margin: 0 0 1rem; }
       url('/images/hero.jpg') center / cover no-repeat;
   }
 }
-}
 /* ============================================================
    Positioning strip (differentiators)
    ============================================================ */
@@ -480,7 +479,7 @@ table.matrix .em { color: var(--rust-dk); font-weight: 700; }
 .footer-copy { grid-column: 1 / -1; margin: 0; padding-top: 1.25rem; border-top: 1px solid rgba(255,255,255,.12); font-size: 0.85rem; color: #b49aa8;}
 .footer-social { grid-column: 2; justify-self: end; display: flex; gap: 1rem; }
 .footer-social a { color: #d8c8d2; display: inline-flex; }
-.footer-social a:hover { color: var(--white); }}
+.footer-social a:hover { color: var(--white); }
 
 /* ============================================================
    Subpages (about / services detail)
