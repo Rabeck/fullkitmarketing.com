@@ -189,7 +189,6 @@ p  { margin: 0 0 1rem; }
       radial-gradient(900px 520px at 6% 0%, rgba(155,61,18,.08), transparent 55%),
       url('/images/hero.jpg') top right / 170% auto no-repeat;
   }
-  }
 }
 /* ============================================================
    Positioning strip (differentiators)
