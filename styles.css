@@ -212,7 +212,7 @@ p  { margin: 0 0 1rem; }
 .section-head { max-width: 740px; margin-bottom: clamp(2.25rem, 4vw, 3.25rem); }
 .section-intro { font-size: 1.12rem; color: var(--slate); }
 .section-graphic {
-  background: url('/images/arrows-up.jpg') right 5% center / 200px auto no-repeat;
+  background: url('/images/arrows-up.jpg') right 5% center / auto 60% no-repeat;
 }
 @media (max-width: 900px) {
   .section-graphic { background: none; }
