@@ -157,14 +157,10 @@ p  { margin: 0 0 1rem; }
 .hero {
   position: relative;
   padding: clamp(4rem, 9vw, 7.5rem) 0 clamp(3rem, 6vw, 5rem);
-  background:
-    linear-gradient(90deg,
-      var(--bg) 0%,
-      rgba(255,255,255,.92) 38%,
-      rgba(255,255,255,.35) 62%,
-      rgba(255,255,255,0) 82%),
-    url('/images/hero.jpg') 50% center / cover no-repeat;
-  overflow: hidden;
+ background:
+  radial-gradient(1100px 480px at 80% -10%, rgba(124,165,184,.22), transparent 60%),
+  radial-gradient(900px 520px at 6% 0%, rgba(155,61,18,.08), transparent 55%),
+  url('/images/hero.jpg') top right / 100% auto no-repeat;
 }
 .hero-inner { max-width: 900px; }
 .hero h1 { margin-bottom: 1.25rem; }
@@ -190,8 +186,9 @@ p  { margin: 0 0 1rem; }
 @media (max-width: 760px) {
   .hero {
     background:
-      linear-gradient(rgba(255,255,255,.88), rgba(255,255,255,.88)),
-      url('/images/hero.jpg') center / cover no-repeat;
+      radial-gradient(900px 520px at 6% 0%, rgba(155,61,18,.08), transparent 55%),
+      url('/images/hero.jpg') top right / 170% auto no-repeat;
+  }
   }
 }
 /* ============================================================
