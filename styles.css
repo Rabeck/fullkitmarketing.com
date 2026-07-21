@@ -160,9 +160,9 @@ p  { margin: 0 0 1rem; }
   background:
     linear-gradient(90deg,
       var(--bg) 0%,
-      rgba(255,255,255,.92) 38%,
+      rgba(255,255,255,.92) 48%,
       rgba(255,255,255,.35) 62%,
-      rgba(255,255,255,0) 62%),
+      rgba(255,255,255,0) 52%),
     url('/images/hero.jpg') center right / cover no-repeat;
   overflow: hidden;
 }
