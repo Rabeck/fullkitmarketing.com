@@ -160,7 +160,7 @@ p  { margin: 0 0 1rem; }
  background:
   radial-gradient(1100px 480px at 80% -10%, rgba(124,165,184,.22), transparent 60%),
   radial-gradient(900px 520px at 6% 0%, rgba(155,61,18,.08), transparent 55%),
-  url('/images/hero.jpg') top right / 100% auto no-repeat;
+  url('/images/hero.jpg') top right / 78% auto no-repeat;
 }
 .hero-inner { max-width: 900px; }
 .hero h1 { margin-bottom: 1.25rem; }
