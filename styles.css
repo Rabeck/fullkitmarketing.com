@@ -196,12 +196,14 @@ p  { margin: 0 0 1rem; }
 .strip { background: var(--steel-dk); color: var(--white); }
 .strip-inner {
   display: grid; grid-template-columns: repeat(4, 1fr);
-  gap: clamp(1rem, 3vw, 2rem);
+  gap: 0;
   padding: clamp(2rem, 4vw, 2.75rem) var(--gutter);
 }
-.strip-item { display: flex; flex-direction: column; gap: 0.4rem; }
+.strip-item { display: flex; flex-direction: column; gap: 0.4rem; align-items: center; text-align: center; }
 .strip-num { font-family: var(--font-serif); font-size: clamp(1.6rem, 3.2vw, 2.3rem); font-weight: 700; color: var(--white); line-height: 1.05; }
 .strip-label { font-size: 0.92rem; color: var(--bg-alt); max-width: 26ch; }
+.strip-item { padding: 0 clamp(1rem, 3vw, 2rem); }
+.strip-item + .strip-item { border-left: 1px solid rgba(255, 255, 255, 0.4); }
 
 /* ============================================================
    Sections
@@ -561,6 +563,9 @@ table.matrix .em { color: var(--rust-dk); font-weight: 700; }
   .about-grid { grid-template-columns: 1fr; }
   .about-intro { position: static; }
   .traits .tk { min-width: 0; }
+   .strip-item + .strip-item { border-left: 0; }
+.strip-item:nth-child(even) { border-left: 1px solid rgba(255, 255, 255, 0.4); }
+.strip-item { padding: 0.5rem 1rem; }
 
   .nav-submenu {
     position: static; opacity: 1; visibility: visible; transform: none;
@@ -593,6 +598,7 @@ table.matrix .em { color: var(--rust-dk); font-weight: 700; }
   .strip-inner { grid-template-columns: 1fr; }
   .footer-inner { grid-template-columns: 1fr; }
   .footer-social { grid-column: 1; justify-self: start; }
+   .strip-item { border-left: 0 !important; }
 }
 
 /* Respect reduced motion */
