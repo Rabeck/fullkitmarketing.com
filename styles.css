@@ -124,7 +124,7 @@ p  { margin: 0 0 1rem; }
   backdrop-filter: saturate(180%) blur(12px);
   border-bottom: 1px solid rgba(248,244,240,.14);
 }
-.header-inner { display: flex; align-items: center; justify-content: space-between; height: 76px; }
+.header-inner { display: flex; align-items: center; justify-content: space-between; height: 96px; }
 
 .brand { display: inline-flex; align-items: center; gap: 0.7rem; color: var(--bg-alt); }
 .brand:hover { text-decoration: none; }
