@@ -425,7 +425,8 @@ table.matrix .em { color: var(--rust-dk); font-weight: 700; }
    ============================================================ */
 .reveal { opacity: 0; transform: translateY(18px); transition: opacity .6s ease, transform .6s ease; }
 .reveal.in { opacity: 1; transform: none; }
-
+/* FAQ items are always visible; the reveal animation is unreliable this low on the page */
+.faq-item.reveal { opacity: 1; transform: none; }
 /* ============================================================
    Contact
    ============================================================ */
