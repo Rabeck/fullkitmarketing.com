@@ -48,7 +48,9 @@
   }, { threshold: 0, rootMargin: "0px 0px 0px 0px" });
     revealEls.forEach(function (el) { io.observe(el); });
   }
-
+window.setTimeout(function () {
+  revealEls.forEach(function (el) { el.classList.add("in"); });
+}, 4000);
   /* Contact form — submits to Web3Forms via fetch, no page reload */
   var form = document.getElementById("contact-form");
   if (form) {
