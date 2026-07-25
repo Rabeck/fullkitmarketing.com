@@ -235,18 +235,25 @@ p  { margin: 0 0 1rem; }
 .dual-card.isnt .dual-tag { color: var(--steel-dk); }
 
 /* steps */
-  .steps {
+ .steps {
   list-style: none; margin: 0; padding: 0;
-  display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.25rem;
+  max-width: 640px;
 }
 .step {
-  position: relative; background: var(--white); border: 1px solid var(--line);
-  border-radius: var(--radius); padding: 1.75rem 1.6rem 1.5rem; box-shadow: var(--shadow-sm);
+  position: relative; background: none; border: none; box-shadow: none;
+  border-radius: 0; padding: 0 0 1.75rem 3.4rem;
+}
+.step:last-child { padding-bottom: 0; }
+.step:not(:last-child)::before {
+  content: ""; position: absolute; left: 18px; top: 46px; bottom: 10px;
+  width: 2px; background: rgba(98, 114, 100, 0.35);
 }
 .step-num {
+  position: absolute; left: 0; top: 0;
   display: inline-grid; place-items: center; width: 38px; height: 38px;
-  border-radius: 10px; background: var(--rust-soft); color: var(--rust-dk);
-  font-family: var(--font-serif); font-weight: 700; font-size: 1.2rem; margin-bottom: 0.9rem;
+  border-radius: 50%; background: var(--sage-soft);
+  border: 1.5px solid rgba(98, 114, 100, 0.55); color: var(--plum);
+  font-family: var(--font-serif); font-weight: 700; font-size: 1.2rem;
 }
 .step h3 { margin-bottom: 0.5rem; }
 .step p { color: var(--slate); margin: 0; font-size: 0.99rem; }
