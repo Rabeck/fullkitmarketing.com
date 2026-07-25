@@ -505,11 +505,12 @@ table.matrix .em { color: var(--rust-dk); font-weight: 700; }
   font-size: 0.92rem; font-style: italic; line-height: 1.5; color: var(--slate-2);
 }
 /* Areas of expertise — starred index rows */
-.expertise-list { margin-top: 0.5rem; border-top: 1px solid var(--line-steel); }
+.expertise-list { margin-top: 0.5rem; }
 .expertise-row {
   display: flex; align-items: flex-start; gap: 1.1rem;
   padding: 1.6rem 0; border-bottom: 1px solid var(--line-steel);
 }
+.expertise-row:last-child { border-bottom: none; }
 .expertise-star {
   flex: 0 0 auto; width: 18px; height: 18px;
   margin-top: 0.25rem; color: var(--rust);
