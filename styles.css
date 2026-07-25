@@ -387,9 +387,8 @@ table.matrix .em { color: var(--rust-dk); font-weight: 700; }
    Quote band
    ============================================================ */
 .quote-band {
-  background: var(--plum); color: var(--white);
+  background: var(--sage); color: var(--white);
   padding: clamp(3.5rem, 7vw, 6rem) 0;
-  background-image: radial-gradient(820px 420px at 85% 120%, rgba(124,165,184,.28), transparent 60%);
 }
 .quote-band blockquote {
   margin: 0 auto; max-width: 880px;
