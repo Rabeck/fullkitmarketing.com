@@ -624,3 +624,25 @@ table.matrix .em { color: var(--rust-dk); font-weight: 700; }
   .reveal { opacity: 1 !important; transform: none !important; transition: none !important; }
   * { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
+/* ============================================================
+   Scroll fade — text dims as it slides under the sticky nav
+   ============================================================ */
+:root { --nav-h: 96px; }   /* must match .header-inner height */
+
+@keyframes fk-nav-fade {
+  from { opacity: 1; }
+  to   { opacity: .2; }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    main :is(h1, h2, h3, h4, p, li, blockquote, figcaption):not(.about-intro *) {
+      animation-name: fk-nav-fade;
+      animation-duration: 1ms;           /* Firefox needs a duration; the timeline overrides it */
+      animation-timing-function: linear;
+      animation-fill-mode: none;         /* deliberate — see note below */
+      animation-timeline: view(block var(--nav-h));
+      animation-range: exit 0% exit 100%;
+    }
+  }
+}
