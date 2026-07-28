@@ -132,7 +132,7 @@ p  { margin: 0 0 1rem; }
 .brand-mark {
   display: inline-grid; place-items: center;
   width: 46px; height: 46px;
-  background: var(--bg-alt);
+  background: var(--white);
   border-radius: 10px;
   padding: 4px;
 }
