@@ -1,6 +1,7 @@
 module.exports = function (eleventyConfig) {
   // Static assets: copy these to _site unchanged on every build.
   eleventyConfig.addPassthroughCopy("_headers");
+  eleventyConfig.addPassthroughCopy("_redirects");
   eleventyConfig.addPassthroughCopy("script.js");
   eleventyConfig.addPassthroughCopy("styles.css");
   eleventyConfig.addPassthroughCopy("fonts");
