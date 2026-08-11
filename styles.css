@@ -231,7 +231,14 @@ p  { margin: 0 0 1rem; }
   background-position: center;
   background-repeat: no-repeat;
 }
-
+@media (max-width: 760px) {
+  .about-hero {
+    background-image:
+      linear-gradient(rgba(248,244,240,0.68), rgba(248,244,240,0.58)),
+      url("/images/about-hero.jpg");
+    background-position: top center;
+  }
+}
 /* Services hero: borderless background image, matching homepage */
 .services-hero {
    min-height: 320px;
