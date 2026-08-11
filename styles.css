@@ -231,14 +231,27 @@ p  { margin: 0 0 1rem; }
   background-position: center;
   background-repeat: no-repeat;
 }
-/* Services page hero background image */
-.services-hero {
-  background-image:
-    linear-gradient(rgba(248, 244, 240, 0.82), rgba(248, 244, 240, 0.15)),
-    url("/images/services-hero.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+/* Services hero: image right, text overlap */
+.hero-grid { display: grid; grid-template-columns: 1fr; align-items: center; }
+.hero-grid > * { grid-area: 1 / 1; }        /* stack both in one cell */
+
+.hero-img {
+  justify-self: end;
+  width: min(44%, 480px);
+  height: auto;
+  z-index: 1;                                /* image behind */
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+}
+.hero-copy {
+  z-index: 2;                                /* text in front, overlapping */
+  max-width: 60%;
+}
+
+@media (max-width: 900px) {
+  .hero-grid > * { grid-area: auto; }        /* un-stack on mobile */
+  .hero-copy { max-width: 100%; }
+  .hero-img { width: 100%; margin-top: 1.5rem; }
 }
 /* is / is-not two-up */
 .dual { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
