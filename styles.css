@@ -231,27 +231,21 @@ p  { margin: 0 0 1rem; }
   background-position: center;
   background-repeat: no-repeat;
 }
-/* Services hero: image right, text overlap */
-.hero-grid { display: grid; grid-template-columns: 1fr; align-items: center; }
-.hero-grid > * { grid-area: 1 / 1; }        /* stack both in one cell */
 
-.hero-img {
-  justify-self: end;
-  width: min(44%, 480px);
-  height: auto;
-  z-index: 1;                                /* image behind */
-  border-radius: var(--radius);
-  box-shadow: var(--shadow-sm);
+/* Services hero: borderless background image, matching homepage */
+.services-hero {
+  position: relative;
+  background:
+    radial-gradient(1100px 480px at 80% -10%, rgba(124,165,184,.22), transparent 60%),
+    radial-gradient(900px 520px at 6% 0%, rgba(155,61,18,.08), transparent 55%),
+    url('/images/services-hero.svg') top right / 78% auto no-repeat;
 }
-.hero-copy {
-  z-index: 2;                                /* text in front, overlapping */
-  max-width: 60%;
-}
-
-@media (max-width: 900px) {
-  .hero-grid > * { grid-area: auto; }        /* un-stack on mobile */
-  .hero-copy { max-width: 100%; }
-  .hero-img { width: 100%; margin-top: 1.5rem; }
+@media (max-width: 760px) {
+  .services-hero {
+    background:
+      radial-gradient(900px 520px at 6% 0%, rgba(155,61,18,.08), transparent 55%),
+      url('/images/services-hero.svg') top right / 170% auto no-repeat;
+  }
 }
 /* is / is-not two-up */
 .dual { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
