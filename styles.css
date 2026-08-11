@@ -234,6 +234,8 @@ p  { margin: 0 0 1rem; }
 
 /* Services hero: borderless background image, matching homepage */
 .services-hero {
+   min-height: 640px;
+  /* background: ... stays as-is */
   position: relative;
   background:
     radial-gradient(1100px 480px at 80% -10%, rgba(124,165,184,.22), transparent 60%),
