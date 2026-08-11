@@ -238,6 +238,7 @@ p  { margin: 0 0 1rem; }
       url("/images/about-hero.jpg");
     background-position: top center;
    background-size: 100% auto;
+     padding-top: 220px
   }
 }
 /* Services hero: borderless background image, matching homepage */
