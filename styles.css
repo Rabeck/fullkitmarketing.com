@@ -234,7 +234,7 @@ p  { margin: 0 0 1rem; }
 
 /* Services hero: borderless background image, matching homepage */
 .services-hero {
-   min-height: 420px;
+   min-height: 360px;
   /* background: ... stays as-is */
   position: relative;
   background:
