@@ -198,7 +198,7 @@ p  { margin: 0 0 1rem; }
    ============================================================ */
 .strip { background: var(--steel-dk); color: var(--white); }
 .strip-inner {
-  display: grid; grid-template-columns: repeat(4, 1fr);
+  display: grid; grid-template-columns: repeat(3, 1fr);
   gap: 0;
   padding: clamp(2rem, 4vw, 2.75rem) var(--gutter);
 }
