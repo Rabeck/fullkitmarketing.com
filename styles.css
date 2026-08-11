@@ -253,8 +253,7 @@ p  { margin: 0 0 1rem; }
 }
 @media (max-width: 760px) {
   .services-hero {
-    min-height: 0;
-    padding-bottom: 200px;
+    min-height: 320;
     background:
       radial-gradient(900px 520px at 6% 0%, rgba(155,61,18,.08), transparent 55%);
   }
@@ -264,8 +263,8 @@ p  { margin: 0 0 1rem; }
     inset: 0;
     z-index: 0;
     pointer-events: none;
-    opacity: 0.5;
-    background: url('/images/services-hero.svg') bottom 32px center / min(300px, 80%) auto no-repeat;
+    opacity: 0.35;
+    background: url('/images/services-hero.svg') center / min(300px, 80%) auto no-repeat;
   }
   .services-hero > .container {
     position: relative;
