@@ -222,6 +222,15 @@ p  { margin: 0 0 1rem; }
 @media (max-width: 900px) {
   .section-graphic { background: none; }
 }
+/* About page hero background image */
+.about-hero {
+  background-image:
+    linear-gradient(rgba(248, 244, 240, 0.82), rgba(248, 244, 240, 0.82)),
+    url("/images/about-hero.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 /* is / is-not two-up */
 .dual { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
 .dual-card {
