@@ -238,7 +238,7 @@ p  { margin: 0 0 1rem; }
   background:
     radial-gradient(1100px 480px at 80% -10%, rgba(124,165,184,.22), transparent 60%),
     radial-gradient(900px 520px at 6% 0%, rgba(155,61,18,.08), transparent 55%),
-    url('/images/services-hero.svg') top right -12% / 78% auto no-repeat;
+    url('/images/services-hero.svg') top right -32% / 78% auto no-repeat;
 }
 @media (max-width: 760px) {
   .services-hero {
