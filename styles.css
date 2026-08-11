@@ -653,6 +653,7 @@ table.matrix .em { color: var(--rust-dk); font-weight: 700; }
   .footer-inner { grid-template-columns: 1fr; }
   .footer-social { grid-column: 1; justify-self: start; }
    .strip-item { border-left: 0 !important; }
+   .strip-item + .strip-item { border-top: 1px solid rgba(255, 255, 255, 0.4); }
 }
 
 /* Respect reduced motion */
