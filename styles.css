@@ -629,6 +629,7 @@ table.matrix .em { color: var(--rust-dk); font-weight: 700; }
 
 /* CTA band on subpages */
 .cta-band { background: var(--bg-alt); border-block: 1px solid var(--line); text-align: center; }
+.cta-band.cta-plain { background: var(--bg); }
 .cta-band .container { max-width: 680px; }
 .cta-band h2 { margin-bottom: 0.8rem; }
 .cta-band p { color: var(--plum-soft); margin: 0 auto 1.6rem; max-width: 52ch; }
