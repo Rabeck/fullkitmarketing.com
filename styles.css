@@ -216,6 +216,7 @@ p  { margin: 0 0 1rem; }
 .section-alt { background: var(--bg-alt); border-block: 1px solid var(--line); }
 .section-sage { background: var(--sage-soft); border-block: 1px solid var(--line); }
 .section-head { max-width: 740px; margin-bottom: clamp(2.25rem, 4vw, 3.25rem); }
+.section-head .page-lead { margin-top: 1.2rem; }
 .section-intro { font-size: 1.12rem; color: var(--slate); }
 .section-graphic {
   position: relative;
