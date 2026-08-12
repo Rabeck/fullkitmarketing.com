@@ -8,6 +8,7 @@
 :root {
   /* palette — from the Full Kit brand identity system */
   --plum:       #3b1c32;   /* primary · brand anchor — text & dark sections */
+  --plum-deep:  #2a1424;   /* darker plum — nav bar */
   --plum-soft:  #573049;   /* lighter plum — secondary text on light */
   --slate:      #6a5560;   /* muted body text (warm) */
   --slate-2:    #8a7681;   /* softest muted text */
@@ -121,7 +122,7 @@ p  { margin: 0 0 1rem; }
    ============================================================ */
 .site-header {
   position: sticky; top: 0; z-index: 100;
-  background: rgba(59,28,50,.94);
+  background: rgba(42,20,36,.94);
   backdrop-filter: saturate(180%) blur(12px);
   border-bottom: 1px solid rgba(248,244,240,.14);
 }
