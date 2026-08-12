@@ -255,35 +255,52 @@ p  { margin: 0 0 1rem; }
    background-size: 100% auto;
   }
 }
-/* Services hero: borderless background image, matching homepage */
+/* Services hero: plum field */
 .services-hero {
-   min-height: 320px;
-  /* background: ... stays as-is */
-  position: relative;
-  background:
-    radial-gradient(1100px 480px at 80% -10%, rgba(124,165,184,.22), transparent 60%),
-    radial-gradient(900px 520px at 6% 0%, rgba(155,61,18,.08), transparent 55%),
-    url('/images/services-hero.svg') top 198px right -20px / clamp(360px, 42vw, 480px) auto no-repeat;
+  background: var(--plum);
+  color: #f3e9ee;
+  padding: clamp(3.5rem, 7vw, 5.5rem) 0;
 }
-@media (max-width: 760px) {
-  .services-hero {
-    min-height: 320;
-    background:
-      radial-gradient(900px 520px at 6% 0%, rgba(155,61,18,.08), transparent 55%);
-  }
-  .services-hero::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    z-index: 0;
-    pointer-events: none;
-    opacity: 0.35;
-    background: url('/images/services-hero.svg') right center / min(300px, 80%) auto no-repeat;
-  }
-  .services-hero > .container {
-    position: relative;
-    z-index: 1;
-  }
+.services-hero .hero-sub {
+  display: block;
+  margin: 0 0 0.6rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1.2rem, 2.3vw, 1.55rem);
+  font-weight: 500;
+  line-height: 1.25;
+  color: var(--steel);
+}
+.services-hero h1 {
+  margin: 0;
+  color: var(--white);
+  font-size: clamp(2.6rem, 6vw, 4.5rem);
+  letter-spacing: -0.015em;
+}
+.services-hero .page-lead {
+  margin-top: 1.6rem;
+  color: #cdbcc6;
+  max-width: 62ch;
+}
+.services-hero .hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin: 2.2rem 0 0;
+}
+.services-hero .btn-primary {
+  background: var(--rust-br);
+  box-shadow: none;
+}
+.services-hero .btn-primary:hover { background: #b0522a; }
+.services-hero .btn-ghost {
+  background: transparent;
+  color: #f3e9ee;
+  border-color: rgba(248,244,240,.45);
+}
+.services-hero .btn-ghost:hover {
+  background: rgba(255,255,255,.07);
+  border-color: #f3e9ee;
+  color: #fff;
 }
 }
 /* is / is-not two-up */
