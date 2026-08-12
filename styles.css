@@ -603,6 +603,7 @@ table.matrix .em { color: var(--rust-dk); font-weight: 700; }
 #areas .section-head h2 { display: flex; align-items: center; gap: 0.7rem; }
 #areas .section-head .expertise-star { width: 22px; height: 22px; margin-top: 0; }
 #areas .section-head .page-lead { max-width: 74ch; }
+#how .section-head { max-width: 960px; }
 @media (max-width: 820px) {
   .expertise-list { grid-template-columns: 1fr; }
   .expertise-row { padding: 1.3rem 0; }
