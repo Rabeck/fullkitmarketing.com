@@ -302,7 +302,7 @@ p  { margin: 0 0 1rem; }
   border-color: #f3e9ee;
   color: #fff;
 }
-}
+
 /* is / is-not two-up */
 .dual { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
 .dual-card {
