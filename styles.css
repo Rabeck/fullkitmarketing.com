@@ -236,7 +236,7 @@ p  { margin: 0 0 1rem; }
     background-image:
       linear-gradient(rgba(248,244,240,0.68), rgba(248,244,240,0.58)),
       url("/images/about-hero.jpg");
-    background-position: top 130 px center;
+    background-position: top 130px center;
    background-size: 100% auto;
   }
 }
