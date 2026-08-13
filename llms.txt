@@ -1,33 +1,33 @@
 # Full Kit Marketing
 
-> Full Kit Marketing is a modern marketing consultancy for growing service-based businesses.
-> It specializes in getting businesses with little or no marketing infrastructure fully
-> set up, strategically aligned, and operating with the systems and roadmap they need to scale.
-> Tagline: "Marketing that levels up your business."
+> Full Kit Marketing is a modern marketing consultancy for growing service-based businesses. It specializes in getting businesses with little or no marketing infrastructure fully set up and operating with the systems and roadmap they need to scale. Tagline: "Marketing that levels up your business."
 
-## What it is
-- Marketing strategy and services provider
-- Senior marketing strategy paired with hands-on execution, right-sized for growing businesses
-- Industry-agnostic within the service sector
+Full Kit pairs senior marketing strategy with hands-on execution. It is industry-agnostic within the service sector and works with companies of 2 to 100 employees that have 0 to 1 in-house marketers. Service areas are drawn on as needed rather than sold as a preset package.
 
-## Who it serves
-- Growing service businesses: hospitality, trades, professional services, SaaS, consulting, and more.
-- 2–100 employees, 0–1 in-house marketers, ready to grow.
+## Pages
 
-## Core service areas (drawn on as needed, never a preset package)
-1. Marketing strategy & planning — brand audit + strategic marketing roadmap tied to business goals.
-2. Messaging & positioning — value proposition, differentiation, cross-channel messaging framework.
-3. Content strategy & creation — production and distribution to grow audience and loyalty.
-4. Marketing operations & automation — web, SEO, tech stack, automation, and AI tools.
-5. Reporting & analytics — frameworks and dashboards around the metrics that matter.
-6. Custom brand activations — "wow moments" and events that bring the brand to life.
+- [Home](https://fullkitmarketing.com/): Overview of the marketing consultancy, who it serves, and how engagements work.
+- [Services](https://fullkitmarketing.com/services/): The core service areas, how the work is structured, and engagement models.
+- [About](https://fullkitmarketing.com/about/): Background on founder Rachel Beck and the specialist network model.
+- [Resources](https://fullkitmarketing.com/resources/): Marketing references and tools for growing service businesses.
+- [Privacy and Cookies](https://fullkitmarketing.com/privacy/): How visitor data and analytics cookies are handled.
 
-## Engagement models
-- Monthly retainer: $3,000–$4,000/month — ongoing strategic partnership.
-- Project engagement: $100/hour — discrete, defined-scope deliverables.
-- Specialist work (curated network) is scoped into estimates upfront.
+## Service areas
 
-## Contact
-- Email: rachel@fullkitmarketing.com
-- Website: https://fullkitmarketing.com/
-- Pages: / (home), /services/, /about/, /resources/, /privacy/
+- [Marketing strategy and planning](https://fullkitmarketing.com/services/#areas): Brand audit and a strategic marketing roadmap tied to business goals.
+- [Messaging and positioning](https://fullkitmarketing.com/services/#areas): Value proposition, differentiation, and a cross-channel messaging framework.
+- [Content strategy and creation](https://fullkitmarketing.com/services/#areas): Content production and distribution to grow audience and loyalty.
+- [Marketing operations and automation](https://fullkitmarketing.com/services/#areas): Web, SEO, tech stack, automation, and AI tools.
+- [Reporting and analytics](https://fullkitmarketing.com/services/#areas): Frameworks and dashboards built around the metrics that matter.
+- [Custom brand activations](https://fullkitmarketing.com/services/#areas): Events and moments that bring the brand to life.
+- [PR and Earned Media](https://fullkitmarketing.com/services/#areas): Public relations and media placements to share your story, raise awareness, and drive demand.
+
+## Working together
+
+- [Monthly retainer](https://fullkitmarketing.com/services/#how): starting at $3,000 per month for an ongoing strategic partnership.
+- [Project engagement](https://fullkitmarketing.com/services/#how): $175 per hour for defined deliverables.
+- [Get in touch](https://fullkitmarketing.com/#contact): Contact form, or email rachel@fullkitmarketing.com.
+
+## Optional
+
+- [Sitemap](https://fullkitmarketing.com/sitemap.xml): Machine-readable list of all indexable pages.
