@@ -5,9 +5,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("script.js");
   eleventyConfig.addPassthroughCopy("styles.css");
   eleventyConfig.addPassthroughCopy("fonts");
-  eleventyConfig.addPassthroughCopy("favicon.svg");
-  eleventyConfig.addPassthroughCopy("favicon.png");
-  eleventyConfig.addPassthroughCopy("apple-touch-icon.png");
+  eleventyConfig.addPassthroughCopy("favicon.ico");
+  eleventyConfig.addPassthroughCopy("favicon-v2.png");
+  eleventyConfig.addPassthroughCopy("apple-touch-icon-v2.png");
   eleventyConfig.addPassthroughCopy("og-image-2.png");
   eleventyConfig.addPassthroughCopy("images");
   eleventyConfig.addPassthroughCopy("robots.txt");
