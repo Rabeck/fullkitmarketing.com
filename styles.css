@@ -125,7 +125,7 @@ h4 { font-size: 1.15rem; }
 p  { margin: 0 0 1rem; }
 
 .eyebrow {
-  font-family: var(--font-sans);
+  font-family: 'Tenor Sans', system-ui, -apple-system, sans-serif;
   letter-spacing: 0.06em;
   font-size: 0.76rem;
   font-weight: 700;
