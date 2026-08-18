@@ -9,6 +9,7 @@
    ============================================================ */
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tenor+Sans:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
 @font-face {
   font-family: 'EB Garamond';
@@ -300,6 +301,7 @@ p  { margin: 0 0 1rem; }
 }
 .services-hero .eyebrow { 
    color: var(--steel); 
+   font-family: 'Permanent Marker', cursive;
 font-size: 0.85rem; 
 }
 .services-hero h1 {
