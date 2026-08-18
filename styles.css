@@ -242,7 +242,7 @@ p  { margin: 0 0 1rem; }
 }
 .strip-item { display: flex; flex-direction: column; gap: 0.4rem; align-items: center; text-align: center; }
 .strip-num { font-family: var(--font-serif); font-size: clamp(1.6rem, 3.2vw, 2.3rem); font-weight: 700; color: var(--white); line-height: 1.05; }
-.strip-label { font-size: 0.92rem; color: var(--bg-alt); max-width: 26ch; }
+.strip-label { font-size: 1.0rem; color: var(--bg-alt); max-width: 26ch; }
 .strip-item { padding: 0 clamp(1rem, 3vw, 2rem); }
 .strip-item + .strip-item { border-left: 1px solid rgba(255, 255, 255, 0.4); }
 
