@@ -242,7 +242,7 @@ p  { margin: 0 0 1rem; }
 }
 .strip-item { display: flex; flex-direction: column; gap: 0.4rem; align-items: center; text-align: center; }
 .strip-num { font-family: var(--font-serif); font-size: clamp(1.6rem, 3.2vw, 2.3rem); font-weight: 700; color: var(--white); line-height: 1.05; }
-.strip-label { font-size: 1.0rem; color: var(--bg-alt); max-width: 26ch; }
+.strip-label { font-size: 1.1rem; color: var(--bg-alt); max-width: 26ch; }
 .strip-item { padding: 0 clamp(1rem, 3vw, 2rem); }
 .strip-item + .strip-item { border-left: 1px solid rgba(255, 255, 255, 0.4); }
 
@@ -651,7 +651,7 @@ table.matrix .em { color: var(--rust-dk); font-weight: 700; }
   border-top: 1px solid var(--line-steel);
 }
 .expertise-row h3 { margin: 0 0 0.35rem; font-size: 1.3rem; line-height: 1.25; }
-.expertise-row p { margin: 0; color: var(--slate); font-size: 0.98rem; }
+.expertise-row p { margin: 0; color: var(--slate); font-size: 1.0rem; }
 .expertise-star {
   flex: 0 0 auto; width: 18px; height: 18px;
   margin-top: 0.25rem; color: var(--rust);
