@@ -113,7 +113,17 @@ a { color: var(--rust-dk); text-decoration: none; }
   text-decoration: underline;
   text-underline-offset: 2px;
 }
-a:hover { text-decoration: underline; }
+.nav-menu > li > a:not(.nav-cta) { position: relative; }
+.nav-menu > li > a:not(.nav-cta)::after {
+  content: ""; position: absolute;
+  left: 0.9rem; right: 0.9rem; bottom: 0.35rem; height: 2px;
+  background: var(--steel);
+  transform: scaleX(0); transform-origin: left;
+  transition: transform 0.22s ease;
+}
+.nav-menu > li > a:not(.nav-cta):hover::after,
+.nav-menu > li > a:not(.nav-cta):focus-visible::after { transform: scaleX(1); }
+.nav-menu a:hover { color: var(--white); text-decoration: none; }
 
 .container { width: 100%; max-width: var(--maxw); margin-inline: auto; padding-inline: var(--gutter); }
 
