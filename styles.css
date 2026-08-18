@@ -195,7 +195,6 @@ p  { margin: 0 0 1rem; }
   display: inline-block; padding: 0.5rem 0.85rem; border-radius: 8px;
   color: var(--white); font-weight: 600; font-size: 0.95rem;
 }
-.nav-menu a:hover { color: var(--white); background: rgba(255,255,255,.1); text-decoration: none; }
 .nav-menu .nav-cta { background: var(--rust); color: var(--white); font-weight: 700; margin-left: 0.4rem; }
 .nav-menu .nav-cta:hover { background: var(--rust-dk); color: var(--white); }
 
