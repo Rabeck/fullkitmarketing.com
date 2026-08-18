@@ -2,7 +2,7 @@
    Full Kit Marketing — styles
    Warm, senior, high-trust: plum anchor, rust energy,
    steel-blue calm, sage grounding, cream canvas.
-   Display: EB Garamond (serif) · Body: Lexend Deca
+   Display: EB Garamond (serif) · Body: Avenir / Nunito Sans
    ============================================================ */
 /* ============================================================
    Webfonts: self-hosted variable, one file per subset
@@ -69,7 +69,7 @@
 
   /* type */
   --font-serif: 'EB Garamond', Georgia, 'Times New Roman', serif;
- --font-sans: 'Lexend Deca', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+ --font-sans:  'Avenir Next', 'Avenir', 'Nunito Sans', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
 
   /* layout */
   --maxw: 1120px;
