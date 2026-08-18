@@ -8,6 +8,7 @@
    Webfonts: self-hosted variable, one file per subset
    ============================================================ */
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans:wght@400&display=swap');
 
 @font-face {
   font-family: 'EB Garamond';
@@ -125,7 +126,7 @@ p  { margin: 0 0 1rem; }
 
 .eyebrow {
   font-family: var(--font-sans);
-  letter-spacing: 0.16em;
+  letter-spacing: 0.06em;
   font-size: 0.76rem;
   font-weight: 700;
   color: var(--rust);
