@@ -387,7 +387,9 @@ font-size: 0.95rem;
 .step-bar {
   grid-column: 1; grid-row: 1; justify-self: end;
   height: 18px; margin-top: 4px;
-  border-radius: 9px; opacity: 0.7;
+border-radius: 9px 0 0 9px;
+clip-path: polygon(0 0, calc(100% - 13px) 0, 100% 50%, calc(100% - 13px) 100%, 0 100%);
+opacity: 0.7;
 }
 .step:nth-child(1) .step-bar { width: 38%;  background: var(--steel); }
 .step:nth-child(2) .step-bar { width: 58%;  background: var(--sage); }
