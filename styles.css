@@ -310,9 +310,13 @@ p  { margin: 0 0 1rem; }
 }
 .services-hero .eyebrow { 
    color: var(--steel); 
-   font-family: 'Permanent Marker', cursive;
-font-size: 0.95rem; 
-   letter-spacing: 0.10em;
+}
+
+.services-hero .eyebrow[src] {
+   display: block;
+   max-width: 100%;
+   height: auto;
+   margin-bottom: 1rem;
 }
 .services-hero h1 {
   margin: 0;
