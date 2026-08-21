@@ -304,13 +304,12 @@ p  { margin: 0 0 1rem; }
 }
 /* Services hero: plum field */
 .services-hero {
-   padding-top: 0rem;
-   margin-top: 0;
-   margin-bottom: 0;
-   background: linear-gradient(135deg, var(--plum) 0%, #422a3f 100%);
+   padding-top: 0;
    padding-bottom: 4.4rem;
    padding-left: 1.5rem;
    padding-right: 1.5rem;
+   margin: 0;
+   background: linear-gradient(135deg, var(--plum) 0%, #422a3f 100%);
 }
 
 .services-hero .eyebrow { 
