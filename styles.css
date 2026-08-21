@@ -304,10 +304,9 @@ p  { margin: 0 0 1rem; }
 }
 /* Services hero: plum field */
 .services-hero {
-  background: var(--plum);
-  color: #f3e9ee;
-  padding: clamp(3.5rem, 7vw, 5.5rem) 0;
+   padding-top: 2rem;
 }
+
 .services-hero .eyebrow { 
    color: var(--steel); 
 }
@@ -316,7 +315,8 @@ p  { margin: 0 0 1rem; }
    display: block;
    max-width: 100%;
    height: auto;
-   margin-bottom: .05rem;
+   margin-bottom: 0.5rem;
+}
 }
 .services-hero h1 {
   margin: 0;
