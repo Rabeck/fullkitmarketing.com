@@ -321,6 +321,7 @@ p  { margin: 0 0 1rem; }
    max-width: 100%;
    height: auto;
    margin-bottom: 0rem;
+   margin-top: -1.5rem;
 }
 .services-hero .container {
    padding-top: 0;
