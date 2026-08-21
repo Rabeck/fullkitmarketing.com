@@ -14,6 +14,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("sitemap.xml");
   eleventyConfig.addPassthroughCopy("site.webmanifest");
   eleventyConfig.addPassthroughCopy("llms.txt");
+    eleventyConfig.addPassthroughCopy("audit");
 
   // Keep internal docs out of the published site.
   eleventyConfig.ignores.add("BRAND.md");
