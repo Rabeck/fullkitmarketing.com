@@ -316,7 +316,7 @@ p  { margin: 0 0 1rem; }
    display: block;
    max-width: 100%;
    height: auto;
-   margin-bottom: 1rem;
+   margin-bottom: .25rem;
 }
 .services-hero h1 {
   margin: 0;
