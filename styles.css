@@ -325,7 +325,8 @@ p  { margin: 0 0 1rem; }
    line-height: 0;
 }
 .services-hero .container {
-   padding-top: 0;
+   padding-top: 0
+   text-align: left;
 }
 .services-hero h1 {
   margin: 0;
