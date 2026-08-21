@@ -322,6 +322,7 @@ p  { margin: 0 0 1rem; }
    height: auto;
    margin-bottom: 0rem;
    margin-top: -1.5rem;
+   line-height: 0;
 }
 .services-hero .container {
    padding-top: 0;
