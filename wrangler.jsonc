@@ -4,7 +4,7 @@
   // uploads _site/ as static assets. _headers and _redirects inside _site/ are honored.
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "full-kit-marketing",
-  "compatibility_date": "2026-09-01",
+  "compatibility_date": "2026-09-02",
   "assets": {
     "directory": "./_site",
     "html_handling": "auto-trailing-slash",
