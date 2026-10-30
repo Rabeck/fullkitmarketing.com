@@ -6,28 +6,28 @@ Full Kit pairs senior marketing strategy with hands-on execution. It is industry
 
 ## Pages
 
-- [Home](https://fullkitmarketing.com/): Overview of the marketing consultancy, who it serves, and how engagements work.
-- [Services](https://fullkitmarketing.com/services/): The core service areas, how the work is structured, and engagement models.
-- [About](https://fullkitmarketing.com/about/): Background on founder Rachel Beck and the specialist network model.
-- [Resources](https://fullkitmarketing.com/resources/): Marketing references and tools for growing service businesses.
-- [Privacy and Cookies](https://fullkitmarketing.com/privacy/): How visitor data and analytics cookies are handled.
+- [Home](https://www.fullkitmarketing.com/): Overview of the marketing consultancy, who it serves, and how engagements work.
+- [Services](https://www.fullkitmarketing.com/services/): The core service areas, how the work is structured, and engagement models.
+- [About](https://www.fullkitmarketing.com/about/): Background on founder Rachel Beck and the specialist network model.
+- [Resources](https://www.fullkitmarketing.com/resources/): Marketing references and tools for growing service businesses.
+- [Privacy and Cookies](https://www.fullkitmarketing.com/privacy/): How visitor data and analytics cookies are handled.
 
 ## Service areas
 
-- [Marketing strategy and planning](https://fullkitmarketing.com/services/#areas): Brand audit and a strategic marketing roadmap tied to business goals.
-- [Messaging and positioning](https://fullkitmarketing.com/services/#areas): Value proposition, differentiation, and a cross-channel messaging framework.
-- [Content strategy and creation](https://fullkitmarketing.com/services/#areas): Content production and distribution to grow audience and loyalty.
-- [Marketing operations and automation](https://fullkitmarketing.com/services/#areas): Web, SEO, tech stack, automation, and AI tools.
-- [Reporting and analytics](https://fullkitmarketing.com/services/#areas): Frameworks and dashboards built around the metrics that matter.
-- [Custom brand activations](https://fullkitmarketing.com/services/#areas): Events and moments that bring the brand to life.
-- [PR and Earned Media](https://fullkitmarketing.com/services/#areas): Public relations and media placements to share your story, raise awareness, and drive demand.
+- [Marketing strategy and planning](https://www.fullkitmarketing.com/services/#areas): Brand audit and a strategic marketing roadmap tied to business goals.
+- [Messaging and positioning](https://www.fullkitmarketing.com/services/#areas): Value proposition, differentiation, and a cross-channel messaging framework.
+- [Content strategy and creation](https://www.fullkitmarketing.com/services/#areas): Content production and distribution to grow audience and loyalty.
+- [Marketing operations and automation](https://www.fullkitmarketing.com/services/#areas): Web, SEO, tech stack, automation, and AI tools.
+- [Reporting and analytics](https://www.fullkitmarketing.com/services/#areas): Frameworks and dashboards built around the metrics that matter.
+- [Custom brand activations](https://www.fullkitmarketing.com/services/#areas): Events and moments that bring the brand to life.
+- [PR and Earned Media](https://www.fullkitmarketing.com/services/#areas): Public relations and media placements to share your story, raise awareness, and drive demand.
 
 ## Working together
 
-- [Monthly retainer](https://fullkitmarketing.com/services/#how): starting at $3,000 per month for an ongoing strategic partnership.
-- [Project engagement](https://fullkitmarketing.com/services/#how): $175 per hour for defined deliverables.
-- [Get in touch](https://fullkitmarketing.com/#contact): Contact form, or email rachel@fullkitmarketing.com.
+- [Monthly retainer](https://www.fullkitmarketing.com/services/#how): starting at $3,000 per month for an ongoing strategic partnership.
+- [Project engagement](https://www.fullkitmarketing.com/services/#how): $175 per hour for defined deliverables.
+- [Get in touch](https://www.fullkitmarketing.com/#contact): Contact form, or email rachel@fullkitmarketing.com.
 
 ## Optional
 
-- [Sitemap](https://fullkitmarketing.com/sitemap.xml): Machine-readable list of all indexable pages.
+- [Sitemap](https://www.fullkitmarketing.com/sitemap.xml): Machine-readable list of all indexable pages.
