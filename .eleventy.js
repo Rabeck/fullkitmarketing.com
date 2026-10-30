@@ -19,4 +19,25 @@ module.exports = function (eleventyConfig) {
   // Keep internal docs out of the published site.
   eleventyConfig.ignores.add("BRAND.md");
   eleventyConfig.ignores.add("README.md");
+
+  // Minify CSS and JS in the build output only. Edit the readable
+  // styles.css / script.js in the repo as usual; Cloudflare serves the
+  // minified copies. After a CSS or JS change, bump ?v= in every page.
+  eleventyConfig.on("eleventy.after", async ({ dir }) => {
+    const esbuild = require("esbuild");
+    const path = require("path");
+    const files = ["styles.css", "script.js"];
+    for (const f of files) {
+      const out = path.join(dir.output, f);
+      await esbuild.build({
+        entryPoints: [out],
+        outfile: out,
+        allowOverwrite: true,
+        minify: true,
+        bundle: false,
+        target: ["es2017", "chrome90", "firefox90", "safari14"],
+        logLevel: "warning",
+      });
+    }
+  });
 };
