@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Marketing Leadership for Funded Startups | Full Kit Marketing</title>
+  <meta name="description" content="Senior marketing strategy for funded startups that need a plan before they build a team. Book a free 30-minute intro call with Rachel Beck." />
+  <!-- Paid-traffic landing page: keep out of search results and the sitemap -->
+  <meta name="robots" content="noindex, nofollow" />
+  <link rel="canonical" href="https://fullkitmarketing.com/startups/" />
+  <meta name="theme-color" content="#3b1c32" />
+
+  <link rel="icon" href="/favicon.ico" sizes="32x32" />
+  <link rel="icon" href="/favicon-v2.png" sizes="192x192" type="image/png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon-v2.png" />
+
+  <meta property="og:title" content="Marketing Leadership for Funded Startups | Full Kit Marketing" />
+  <meta property="og:description" content="Book a free 30-minute intro call with Rachel Beck." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://fullkitmarketing.com/startups/" />
+  <meta property="og:image" content="https://fullkitmarketing.com/og-image-2.png" />
+
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+  <link rel="preload" href="/fonts/ebgaramond-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/nunitosans-400-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/styles.css?v=3" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N5BYZFXRN5"></script>
+  <script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-N5BYZFXRN5', {
+    allow_google_signals: false,
+    allow_ad_personalization_signals: false
+  });
+  </script>
+
+  <!-- LP-STYLES: page-scoped styles for the startups landing page -->
+  <style>
+    .lp { color: var(--plum); font-size: 16px; line-height: 1.65; }
+    .lp-wrap { max-width: 1120px; margin: 0 auto; padding-inline: 20px; box-sizing: border-box; }
+    .lp h1, .lp h2, .lp h3 { font-family: var(--font-serif); font-weight: 700; color: var(--plum); margin: 0; }
+    .lp p { margin: 0; }
+
+    /* buttons */
+    .lp-btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; min-height: 52px; padding: 0 28px; border: 0; border-radius: 999px;
+      background: var(--rust); color: var(--white); font: inherit; font-size: 16px; font-weight: 700; text-decoration: none; cursor: pointer;
+      box-shadow: 0 6px 18px rgba(155,61,18,.28); transition: background .15s ease, transform .15s ease; }
+    .lp-btn:hover { background: var(--rust-dk); color: var(--white); text-decoration: none; transform: translateY(-1px); }
+    .lp-btn-sm { min-height: 44px; padding: 0 20px; font-size: 15px; background: var(--plum); box-shadow: 0 1px 3px rgba(59,28,50,.07); white-space: nowrap; }
+    .lp-btn-sm:hover { background: var(--plum-soft); }
+    .lp a:focus-visible, .lp button:focus-visible, .lp input:focus-visible, .lp textarea:focus-visible { outline: 2px solid var(--steel-dk); outline-offset: 3px; }
+
+    /* header */
+    .lp-header { background: var(--white); border-bottom: 1px solid var(--line); }
+    .lp-header .lp-wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-block: 14px; }
+    .lp-brand { display: flex; align-items: center; gap: 10px; }
+    .lp-brand img { display: block; width: auto; }
+
+    /* hero */
+    .lp-hero { background: var(--plum); color: var(--white); }
+    .lp-hero .lp-wrap { display: flex; align-items: center; justify-content: space-between; gap: 64px; padding-block: clamp(3.5rem, 8vw, 6.5rem); }
+    .lp-hero-copy { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 24px; }
+    .lp-hero h1 { color: var(--white); max-width: 820px; font-size: clamp(40px, 4.6vw, 56px); line-height: 1.05; letter-spacing: -0.01em; }
+    .lp-hero p { max-width: 640px; font-size: 18px; color: var(--white); }
+    .lp-hero .lp-btn { margin-top: 8px; }
+    .lp-hero-logo { display: none; flex: none; width: 260px; height: 260px; border-radius: 999px; background: var(--white); align-items: center; justify-content: center;
+      outline: 1px solid var(--rust-soft); outline-offset: 10px; box-shadow: 0 1px 2px rgba(59,28,50,.05), 0 12px 32px rgba(59,28,50,.09); }
+    .lp-hero-logo img { width: 172px; height: auto; display: block; transform: translateY(-10px); }
+    @media (min-width: 900px) { .lp-hero-logo { display: flex; } }
+
+    /* pains */
+    .lp-pains .lp-wrap { display: flex; flex-direction: column; gap: 32px; padding-block: clamp(3.5rem, 7vw, 5.5rem); }
+    .lp-pains h2 { font-size: clamp(32px, 3.6vw, 44px); line-height: 1.08; }
+    .lp-pain-row { display: flex; flex-wrap: wrap; gap: 0 48px; }
+    .lp-pain { flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 16px; padding: 28px 0; border-top: 1px solid rgba(59,28,50,.16); }
+    .lp-pain-icon { flex: none; width: 56px; height: 56px; border-radius: 999px; background: var(--steel-soft); display: flex; align-items: center; justify-content: center; }
+    .lp-pain h3 { font-size: 24px; line-height: 1.15; margin-bottom: 8px; }
+
+    /* about */
+    .lp-about { background: var(--sage-soft); }
+    .lp-about .lp-wrap { display: flex; flex-wrap: wrap; align-items: baseline; gap: 16px 64px; padding-block: clamp(2.5rem, 5vw, 4rem); }
+    .lp-about h2 { flex: 1 1 240px; min-width: 0; font-size: clamp(28px, 3vw, 36px); line-height: 1.12; }
+    .lp-about p { flex: 2.4 1 520px; min-width: 0; font-size: 17px; }
+
+    /* steps */
+    .lp-steps .lp-wrap { display: flex; flex-direction: column; gap: 40px; padding-block: clamp(3.5rem, 8vw, 6.5rem); }
+    .lp-steps h2 { font-size: clamp(28px, 3vw, 36px); line-height: 1.12; }
+    .lp-steps ol { margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; gap: 32px; }
+    .lp-steps li { flex: 1 1 280px; min-width: 0; display: flex; flex-direction: column; gap: 12px; }
+    .lp-step-head { display: flex; align-items: center; gap: 16px; }
+    .lp-num { flex: none; width: 48px; height: 48px; border-radius: 999px; display: flex; align-items: center; justify-content: center;
+      font-family: var(--font-serif); font-weight: 700; font-size: 26px; line-height: 1; color: var(--white); }
+    .lp-steps h3 { font-size: 22px; line-height: 1.12; }
+
+    /* book */
+    .lp-book { background: var(--plum); color: var(--white); }
+    .lp-book .lp-wrap { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 48px; padding-block: clamp(3.5rem, 8vw, 6.5rem); }
+    .lp-book-copy { flex: 1 1 320px; min-width: 0; display: flex; flex-direction: column; align-items: flex-start; gap: 24px; }
+    .lp-book h2 { color: var(--white); font-size: clamp(28px, 3vw, 40px); line-height: 1.12; }
+    .lp-checks { margin: 0; padding: 0; list-style: none; display: flex; flex-direction: column; gap: 16px; }
+    .lp-checks li { display: flex; align-items: flex-start; gap: 12px; font-size: clamp(19px, 2.2vw, 24px); line-height: 1.4; color: var(--white); }
+    .lp-checks svg { flex: none; margin-top: 4px; }
+    .lp-book .lp-btn { background: var(--rust-br); }
+    .lp-book .lp-btn:hover { background: var(--rust); }
+    .lp-card .lp-btn { background: var(--rust); }
+    .lp-card .lp-btn:hover { background: var(--rust-dk); }
+
+    .lp-card { flex: 1.2 1 380px; min-width: 0; box-sizing: border-box; background: var(--white); color: var(--plum); border-radius: 14px;
+      padding: clamp(24px, 3vw, 36px); box-shadow: 0 1px 2px rgba(59,28,50,.05), 0 12px 32px rgba(59,28,50,.09); }
+    .lp-card h3 { font-family: var(--font-sans); font-size: 18px; margin-bottom: 20px; }
+    .lp .lp-form { max-width: none; margin: 0; display: flex; flex-direction: column; gap: 20px; }
+    .lp .lp-form .field { margin: 0; display: flex; flex-direction: column; gap: 6px; }
+    .lp .lp-form label { margin: 0; font-size: 14px; font-weight: 700; }
+    .lp .lp-form label span { font-weight: 400; color: var(--slate); }
+    .lp .lp-form input[type="text"], .lp .lp-form input[type="email"], .lp .lp-form textarea { border: 1px solid var(--slate-2); border-radius: 4px; font-size: 16px; }
+    .lp .lp-form input[type="text"], .lp .lp-form input[type="email"] { height: 48px; padding: 0 14px; }
+    .lp .lp-form textarea { min-height: 0; padding: 12px 14px; line-height: 1.5; }
+    .lp .lp-form button { margin: 0; align-self: stretch; }
+    .lp .lp-form .form-consent { font-size: 14px; line-height: 1.6; color: var(--slate); }
+    .lp .lp-form .form-status:empty { display: none; }
+    .lp-card .contact-done { color: var(--plum); }
+
+    /* footer */
+    .lp-footer { background: var(--plum-deep); color: var(--white); }
+    .lp-footer .lp-wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 24px; padding-block: 32px; }
+    .lp-footer img { height: 32px; width: auto; display: block; }
+    .lp-footer p { margin: 0; font-size: 14px; line-height: 1.6; }
+    .lp-footer a { color: var(--white); }
+
+    /* icon animations */
+    @keyframes fk-run { 0%,50%,100% { transform: translateY(0) rotate(0); } 25% { transform: translateY(-2px) rotate(-4deg); } 75% { transform: translateY(-2px) rotate(4deg); } }
+    @keyframes fk-pop-a { 0% { opacity: 0; transform: scale(.4); } 10%,86% { opacity: 1; transform: scale(1); } 96%,100% { opacity: 0; transform: scale(1); } }
+    @keyframes fk-pop-b { 0%,24% { opacity: 0; transform: scale(.4); } 34%,86% { opacity: 1; transform: scale(1); } 96%,100% { opacity: 0; transform: scale(1); } }
+    @keyframes fk-pop-c { 0%,44% { opacity: 0; transform: scale(.4); } 54%,86% { opacity: 1; transform: scale(1); } 96%,100% { opacity: 0; transform: scale(1); } }
+    @keyframes fk-focus { 0%,30%,100% { filter: blur(0); } 55%,70% { filter: blur(1.8px); } }
+    .fk-anim-run { transform-origin: 50% 100%; animation: fk-run .7s ease-in-out infinite; }
+    .fk-anim-people g { transform-box: fill-box; transform-origin: 50% 100%; }
+    .fk-anim-people .p1 { animation: fk-pop-a 4s ease-out infinite; }
+    .fk-anim-people .p2 { animation: fk-pop-b 4s ease-out infinite; }
+    .fk-anim-people .p3 { animation: fk-pop-c 4s ease-out infinite; }
+    .fk-anim-focus { animation: fk-focus 3.2s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) { .fk-anim-run, .fk-anim-focus, .fk-anim-people g { animation: none; } }
+  </style>
+</head>
+<body class="lp">
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- LP-HEADER: logo + one CTA, no site nav (keeps ad traffic on the page) -->
+  <header class="lp-header">
+    <div class="lp-wrap">
+      <span class="lp-brand">
+        <img src="/images/fkm-icon.webp" alt="" width="40" height="42" decoding="async" />
+        <img src="/images/fkm-wordmark.webp" alt="Full Kit Marketing" width="91" height="32" decoding="async" />
+      </span>
+      <a class="lp-btn lp-btn-sm js-book" data-loc="header" href="https://calendar.app.google/pejexwSKWrQDx7kG6">Book a call</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- LP-HERO -->
+    <section class="lp-hero">
+      <div class="lp-wrap">
+        <div class="lp-hero-copy">
+          <h1>You raised the round. Now marketing has to deliver.</h1>
+          <p>Most early-stage teams hire a marketer or an agency before anyone has decided what marketing is supposed to do. Full Kit sets the strategy first, so every hire and dollar after it has a job.</p>
+          <a class="lp-btn js-book" data-loc="hero" href="https://calendar.app.google/pejexwSKWrQDx7kG6">Book a free 30-minute call<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg></a>
+        </div>
+        <div class="lp-hero-logo">
+          <img src="/images/fkm-lockup.webp" alt="" width="172" height="192" decoding="async" />
+        </div>
+      </div>
+    </section>
+
+    <!-- LP-PAINS -->
+    <section class="lp-pains">
+      <div class="lp-wrap">
+        <h2>Sound familiar?</h2>
+        <div class="lp-pain-row">
+          <div class="lp-pain">
+            <span class="lp-pain-icon" aria-hidden="true"><svg class="fk-anim-run" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#4f7d92" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="15.5" cy="4.5" r="2"/><path d="M13.5 8.5L10.5 14"/><path d="M13.5 8.5L9.8 9.2L7.6 11.6"/><path d="M13.5 8.5L15.8 11.2L18.8 10.4"/><path d="M10.5 14L13.8 16.4L12.8 21"/><path d="M10.5 14L8.2 17.6L4.6 18"/></svg></span>
+            <div>
+              <h3>Marketing is still founder-led</h3>
+              <p>It worked to get here, but it won’t get you to the next milestone. And it’s eating your valuable time.</p>
+            </div>
+          </div>
+          <div class="lp-pain">
+            <span class="lp-pain-icon" aria-hidden="true"><svg class="fk-anim-people" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#4f7d92" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><g class="p2"><circle cx="5" cy="10" r="2.2"/><path d="M1.5 19.5c0-2.1 1.6-3.8 3.5-3.8 .8 0 1.5.2 2.1.7"/></g><g class="p3"><circle cx="19" cy="10" r="2.2"/><path d="M22.5 19.5c0-2.1-1.6-3.8-3.5-3.8-.8 0-1.5.2-2.1.7"/></g><g class="p1"><circle cx="12" cy="8" r="3.2"/><path d="M6.5 20.5c0-3.2 2.5-5.7 5.5-5.7s5.5 2.5 5.5 5.7"/></g></svg></span>
+            <div>
+              <h3>You’re about to make your first marketing hire</h3>
+              <p>But you’re not sure what that person should own, or how to set them up for success from Day 1.</p>
+            </div>
+          </div>
+          <div class="lp-pain">
+            <span class="lp-pain-icon" aria-hidden="true"><svg class="fk-anim-focus" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#4f7d92" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h10"/><path d="M18 6h2"/><circle cx="16" cy="6" r="2"/><path d="M4 12h4"/><path d="M12 12h8"/><circle cx="10" cy="12" r="2"/><path d="M4 18h12"/><circle cx="18" cy="18" r="2"/></svg></span>
+            <div>
+              <h3>GTM ops are... fuzzy</h3>
+              <p>You know AI can handle a lot of operational work, but you need someone to set it up and validate results.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LP-ABOUT -->
+    <section class="lp-about">
+      <div class="lp-wrap">
+        <h2>Deploy a senior marketing strategist</h2>
+        <p>Rachel Beck spent more than 13 years as an in-house marketer, from pre-launch startups to Fortune 500 companies, including senior leadership in B2B software. She founded Full Kit Marketing to bring that experience to companies that need it before they can build a full team.</p>
+      </div>
+    </section>
+
+    <!-- LP-HOW -->
+    <section class="lp-steps">
+      <div class="lp-wrap">
+        <h2>A marketing plan for your stage</h2>
+        <ol>
+          <li>
+            <div class="lp-step-head"><span class="lp-num" aria-hidden="true" style="background: var(--steel-dk)">1</span><h3>Set the goals</h3></div>
+            <p>We start with your growth goals: The milestones you want to reach, and the growth you need to reach them.</p>
+          </li>
+          <li>
+            <div class="lp-step-head"><span class="lp-num" aria-hidden="true" style="background: var(--rust)">2</span><h3>Build the strategy</h3></div>
+            <p>We build a marketing strategy around those goals, supported by an execution plan that fits your resources.</p>
+          </li>
+          <li>
+            <div class="lp-step-head"><span class="lp-num" aria-hidden="true" style="background: var(--plum)">3</span><h3>Ship it</h3></div>
+            <p>Full Kit can run it, or your in-house team or another agency can. Whoever does the work gets a plan they can pick up and use.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- LP-BOOK: primary CTA is the Google booking link; the form card is the fallback (Web3Forms, handled by /script.js #contact-form) -->
+    <section class="lp-book" id="book">
+      <div class="lp-wrap">
+        <div class="lp-book-copy">
+          <h2>Book a free intro call</h2>
+          <ul class="lp-checks">
+            <li><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#7ca5b8" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg><span>Bring your high-level growth goals and what you need from marketing</span></li>
+            <li><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#7ca5b8" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12.5l5 5L20 6.5"/></svg><span>You leave with at least one thing to do next, whether or not we work together</span></li>
+          </ul>
+          <a class="lp-btn js-book" data-loc="book_section" href="https://calendar.app.google/pejexwSKWrQDx7kG6">Pick a time<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M13 6l6 6-6 6"/></svg></a>
+        </div>
+
+        <div class="lp-card">
+          <h3>Prefer to send a note first?</h3>
+          <form id="contact-form" class="contact-form lp-form" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="b2cf0224-5d24-44d2-a05f-d3441631f93e" />
+            <input type="hidden" name="subject" value="Intro call request: startups landing page" />
+            <input type="hidden" name="from_name" value="Full Kit Marketing: /startups/" />
+            <!-- UTM values are filled from the ad URL by the script at the bottom of this page -->
+            <input type="hidden" name="utm_source" value="" />
+            <input type="hidden" name="utm_medium" value="" />
+            <input type="hidden" name="utm_campaign" value="" />
+            <input type="hidden" name="utm_content" value="" />
+            <input type="checkbox" name="botcheck" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+            <p class="field">
+              <label for="lp-name">Name</label>
+              <input id="lp-name" type="text" name="name" required autocomplete="name" />
+            </p>
+            <p class="field">
+              <label for="lp-email">Work email</label>
+              <input id="lp-email" type="email" name="email" required autocomplete="email" />
+            </p>
+            <p class="field">
+              <label for="lp-company">Company website</label>
+              <input id="lp-company" type="text" name="company_website" required autocomplete="url" inputmode="url" />
+            </p>
+            <p class="field">
+              <label for="lp-message">What’s your biggest marketing challenge? <span>(optional)</span></label>
+              <textarea id="lp-message" name="message" rows="4"></textarea>
+            </p>
+            <div id="cf-turnstile-container" class="cf-turnstile-box"></div>
+            <button type="submit" class="lp-btn">Send my note</button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+            <p class="form-consent">Rachel will reply within one business day. Your details are only used to reply to you. More in <a href="/privacy/">Privacy &amp; Cookies</a>.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="lp-footer">
+    <div class="lp-wrap">
+      <img src="/images/fkm-wordmark-white.webp" alt="Full Kit Marketing" width="91" height="32" loading="lazy" decoding="async" />
+      <p>© 2026 Full Kit Marketing LLC · <a href="/">fullkitmarketing.com</a> · <a href="/privacy/">Privacy</a></p>
+    </div>
+  </footer>
+
+  <!-- LP-TRACKING: GA4 event on booking-link clicks; copy UTMs into the form; GA4 generate_lead event on successful form submit -->
+  <script>
+  (function () {
+    document.querySelectorAll(".js-book").forEach(function (a) {
+      a.addEventListener("click", function () {
+        if (window.gtag) gtag("event", "book_call_click", { link_location: a.getAttribute("data-loc"), page: "startups_lp" });
+      });
+    });
+    var form = document.getElementById("contact-form");
+    if (!form) return;
+    var params = new URLSearchParams(location.search);
+    ["utm_source", "utm_medium", "utm_campaign", "utm_content"].forEach(function (k) {
+      var el = form.querySelector('input[name="' + k + '"]');
+      if (el && params.get(k)) el.value = params.get(k);
+    });
+    // /script.js swaps the form for .contact-done on success; watch for it
+    var parent = form.parentNode;
+    new MutationObserver(function (m, obs) {
+      if (parent.querySelector(".contact-done")) {
+        if (window.gtag) gtag("event", "generate_lead", { form_location: "startups_lp" });
+        obs.disconnect();
+      }
+    }).observe(parent, { childList: true });
+  })();
+  </script>
+  <script src="/script.js" defer></script>
+</body>
+</html>
